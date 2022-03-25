@@ -1,0 +1,67 @@
+body {
+    background-color: black;
+    margin: 0px;
+    font-family: sans-serif;
+}
+.header {
+    width: 100%;
+    height: 70px;
+    border-bottom: 3px rgb(252, 153, 202) solid;
+    align-items: center;
+}
+.titulo {
+    color: rgb(252, 153, 202);
+}
+.container {
+    width: 80%;
+    margin: auto;
+    display: flex;
+}
+.header .container {
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar {
+    width: 500px;
+    list-style: none;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    display: flex;
+    padding: 0;
+}
+.banner {
+    height: 715px;
+    background-image: url(eddie.gif);
+    background-size: cover;
+    background-position: center;
+}
+.banner .card {
+    background-color: rgba(255, 255, 255, 0.747);
+    height: 450px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 40px;
+}
+input {
+    height: 30px;
+    border: 2px solid black;
+    border-radius: 4px;
+}
+.btn {
+    font-family: monospace;
+    margin-top: 10px;
+    border: 0;
+    font-weight: 600;
+    background-color: black;
+    color: white;
+    font-size: 18px;
+    border-radius: 4px;
+    padding: 10px 15px;
+}
